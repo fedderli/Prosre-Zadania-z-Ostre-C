@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Board Game  Simulator", "Board Game  Simulator\Board Game  Simulator.csproj", "{94CF9839-3250-46B5-9B35-2ECAE4B7CA4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94CF9839-3250-46B5-9B35-2ECAE4B7CA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CF9839-3250-46B5-9B35-2ECAE4B7CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CF9839-3250-46B5-9B35-2ECAE4B7CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CF9839-3250-46B5-9B35-2ECAE4B7CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
