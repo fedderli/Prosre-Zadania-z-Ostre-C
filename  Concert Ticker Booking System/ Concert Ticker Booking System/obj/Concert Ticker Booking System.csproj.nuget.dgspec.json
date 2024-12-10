@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj": {}
+    "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj": {}
   },
   "projects": {
-    "/home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj": {
+    "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj",
+        "projectUniqueName": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj",
         "projectName": "Concert Ticker Booking System",
-        "projectPath": "/home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj",
-        "packagesPath": "/home/karolp/.nuget/packages/",
-        "outputPath": "/home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/obj/",
+        "projectPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/Concert Ticker Booking System.csproj",
+        "packagesPath": "/home/filip/.nuget/packages/",
+        "outputPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/home/karolp/.nuget/NuGet/NuGet.Config"
+          "/home/filip/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

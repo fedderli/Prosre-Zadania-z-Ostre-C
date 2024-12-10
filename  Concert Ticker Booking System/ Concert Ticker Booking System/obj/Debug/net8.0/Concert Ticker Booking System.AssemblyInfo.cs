@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Concert Ticker Booking System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ba5d7eda26a71fd5d98cceee1668befb933bb22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47026c70eec59311ea563fd9ed11266b8c47e650")]
 [assembly: System.Reflection.AssemblyProductAttribute("Concert Ticker Booking System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Concert Ticker Booking System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

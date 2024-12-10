@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Concert_Ticker_Booking_System
-build_property.ProjectDir = /home/karolp/Pulpit/Proste zadania C#/ Concert Ticker Booking System/ Concert Ticker Booking System/
+build_property.ProjectDir = /home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/ Concert Ticker Booking System/ Concert Ticker Booking System/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
