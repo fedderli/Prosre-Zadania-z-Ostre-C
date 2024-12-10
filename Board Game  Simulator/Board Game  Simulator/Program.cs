@@ -15,6 +15,16 @@ public class Player
         
     }
 }
+
+public class Board
+{
+    public int boardSize;
+
+    public void RandomPrice()
+    {
+        
+    }
+}
 internal class Program
 {
     public static void Main(string[] args)

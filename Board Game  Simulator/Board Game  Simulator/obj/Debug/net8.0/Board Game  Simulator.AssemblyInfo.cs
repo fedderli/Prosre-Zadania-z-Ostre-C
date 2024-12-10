@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Board Game  Simulator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c12408f66175bc942d0004e407d2af37f00719a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47026c70eec59311ea563fd9ed11266b8c47e650")]
 [assembly: System.Reflection.AssemblyProductAttribute("Board Game  Simulator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Board Game  Simulator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
