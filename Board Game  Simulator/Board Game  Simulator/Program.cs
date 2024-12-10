@@ -25,6 +25,29 @@ public class Board
         
     }
 }
+
+public class Game
+{
+    public void StartGame()
+    {
+        
+    }
+
+    public void PlayerTurn()
+    {
+        
+    }
+
+    public void IsItInThePriceField()
+    {
+        
+    }
+
+    public void DispalyFinalResult()
+    {
+        
+    }
+}
 internal class Program
 {
     public static void Main(string[] args)
