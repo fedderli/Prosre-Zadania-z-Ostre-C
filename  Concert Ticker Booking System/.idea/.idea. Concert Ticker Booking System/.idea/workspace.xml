@@ -8,20 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,10 @@
     &quot;accountId&quot;: &quot;137eebd8-ac3c-4c9b-a03b-8002faca48a0&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Sports Team Management System/Sports Team Management System/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -110,6 +102,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -8,19 +8,20 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/karolp/.nuget/packages/": {}
+    "/home/filip/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/karolp/Pulpit/Proste zadania C#/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
+      "projectUniqueName": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
       "projectName": "Sports Team Management System",
-      "projectPath": "/home/karolp/Pulpit/Proste zadania C#/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
-      "packagesPath": "/home/karolp/.nuget/packages/",
-      "outputPath": "/home/karolp/Pulpit/Proste zadania C#/Sports Team Management System/Sports Team Management System/obj/",
+      "projectPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
+      "packagesPath": "/home/filip/.nuget/packages/",
+      "outputPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/home/karolp/.nuget/NuGet/NuGet.Config"
+        "/home/filip/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
