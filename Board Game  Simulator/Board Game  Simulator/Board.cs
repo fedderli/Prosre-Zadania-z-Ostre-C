@@ -18,6 +18,7 @@ public class Board
             if (!SpecialFields.Contains(newField))
             {
                 SpecialFields.Add(newField);
+                
             }
         }
         
