@@ -11,13 +11,19 @@ public class Game
     public static List<Player> players = new List<Player>();
     public static void StartGame()
     {
-        
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine("Przygotowanie do gry!!!");
+        
+        Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("Podaj ilość Graczy(2-4) :");
+        
         int numberOfPlayers = int.Parse(Console.ReadLine());
-
+        
+        
+        
         if (numberOfPlayers < 2 || numberOfPlayers > 4)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("zła ilość graczy >:( Więc gra postanawia Wybuchnąć");
             Thread.Sleep(1000);
             Console.WriteLine("rozpoczynam autodestrukcję");
@@ -33,13 +39,16 @@ public class Game
 
         for (int i = 1; i <= numberOfPlayers; i++)
         {
-
-
-
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("Podaj swoje imie");
+            
+            Console.ForegroundColor = ConsoleColor.Magenta;
             string playerName = Console.ReadLine();
-
+            
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Wybierz klasę swojej postaci: (Healer (1)/ Mag(2)/ Wojownik(3))");
+
+            Console.ForegroundColor = ConsoleColor.Green;
             int playerClassChoice = int.Parse(Console.ReadLine());
 
             Player player = new Player() { Name = playerName };
@@ -61,6 +70,7 @@ public class Game
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("nie ma takiej klasy >:( Więc gra postanawia Wybuchnąć");
                 Thread.Sleep(1000);
                 Console.WriteLine("rozpoczynam autodestrukcję");
@@ -76,11 +86,14 @@ public class Game
             
             players.Add(player);
         }
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("Wszyscy gracze w grze:");
+        Console.ForegroundColor = ConsoleColor.Green;
         foreach (var player in players)
         {
             Console.WriteLine($"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
         }
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("gra się rozpoczyna !!!!!!" );
         PlayerTurn();
     }
@@ -92,11 +105,24 @@ public class Game
         {
             foreach (var player in players)
             {
+                Thread.Sleep(1000);
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
                 
+                Console.ForegroundColor = ConsoleColor.White;
+                Thread.Sleep(1000);
                 player.Move();
+                
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine($"{player.Name} kończy ture");
                 Thread.Sleep(1000);
+
+                if (player.Score == 50 || player.Position ==100)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"{player.Name} wygrywa całą gre");
+                    endGame = true;
+                }
             }
         }
     }

@@ -1,4 +1,4 @@
-namespace Board_Game__Simulator;
+namespace Board_Game__Simulator_board;
 
 public class Board
 {

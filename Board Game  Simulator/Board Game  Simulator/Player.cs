@@ -12,14 +12,18 @@ public class Player
     {
         Random random = new Random();
         int diceRoll = random.Next(1, 7);
+        
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine($"{Name} rzucił kostką i wyrzucił : {diceRoll}");
 
+        Console.ForegroundColor = ConsoleColor.Cyan;
         Position += diceRoll;
         Console.WriteLine($"{Name} porusza się  na pole {Position}");
     }
 
-    public void AddScore()
+    public void AddScore(int points)
     {
-        
+        Score += points;
+        Console.WriteLine($"{Name} zdobywa {points} punktów! Obecny wynik : {Score} ");
     }
 }
