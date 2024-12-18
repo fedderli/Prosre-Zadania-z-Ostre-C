@@ -1,10 +1,12 @@
-namespace Board_Game__Simulator;
+
+namespace Board_Game__Simulator_player;
 
 public class Player
 {
-    public string Name;
-    public int Position;
-    public int Score;
+    public string Name {get; set;}
+    public int Position { get; set; } = 0;
+    public int Score { get; set; } = 0;
+    public object PlayerClass { get; set; }
 
     public void Move()
     {

@@ -1,4 +1,4 @@
-namespace Board_Game__Simulator.interfaces.Mag;
+namespace Board_Game__Simulator.interfaces.Healer;
 
 public interface IHealer
 {
@@ -12,12 +12,10 @@ public class Healer : IHealer
     public int Sila { get; set; }
     public int Inteligencja { get; set; }
     public int Charyzma { get; set; }
-
-    // Konstruktor, który ustawia wartości domyślne
     public Healer()
     {
-        Sila = 5;           // Średnia siła
-        Inteligencja = 8;    // Wysoka inteligencja
-        Charyzma = 6;        // Dobra charyzma
+        Sila = 5;
+        Inteligencja = 8;
+        Charyzma = 6;   
     }
 }
