@@ -2,7 +2,9 @@ using Board_Game__Simulator.interfaces.Mag;
 using Board_Game__Simulator.interfaces.Wojownik;
 using Board_Game__Simulator.interfaces.Healer;
 using Board_Game__Simulator_player;
+using Board_Game__Simulator_board;
 
+using Microsoft.VisualBasic.FileIO;
 namespace Board_Game__Simulator_game;
 using System.Threading;
 
@@ -121,7 +123,7 @@ public class Game
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"{player.Name} wygrywa całą gre");
-                    endGame = true;
+                    return;
                 }
             }
         }
@@ -129,7 +131,7 @@ public class Game
 
     public  static void IsItInThePriceField()
     {
-        
+
     }
 
     public  static void DispalyFinalResult()
