@@ -81,13 +81,24 @@ public class Game
         {
             Console.WriteLine($"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
         }
-        Console.WriteLine("gra się rozpoczyna !!!!!!" +
-                          "");
+        Console.WriteLine("gra się rozpoczyna !!!!!!" );
+        PlayerTurn();
     }
 
     public static void PlayerTurn()
     {
-        
+        var endGame = false;
+        while (!endGame)
+        {
+            foreach (var player in players)
+            {
+                Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
+                
+                player.Move();
+                Console.WriteLine($"{player.Name} kończy ture");
+                Thread.Sleep(1000);
+            }
+        }
     }
 
     public  static void IsItInThePriceField()

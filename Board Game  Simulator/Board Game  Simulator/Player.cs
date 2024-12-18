@@ -10,7 +10,12 @@ public class Player
 
     public void Move()
     {
-        
+        Random random = new Random();
+        int diceRoll = random.Next(1, 7);
+        Console.WriteLine($"{Name} rzucił kostką i wyrzucił : {diceRoll}");
+
+        Position += diceRoll;
+        Console.WriteLine($"{Name} porusza się  na pole {Position}");
     }
 
     public void AddScore()
