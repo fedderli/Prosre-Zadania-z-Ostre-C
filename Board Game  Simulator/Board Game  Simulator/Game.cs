@@ -121,7 +121,7 @@ public class Game
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"{player.Name} wygrywa całą gre");
-                    endGame = true;
+                    return;
                 }
             }
         }

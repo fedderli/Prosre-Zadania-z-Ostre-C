@@ -15,10 +15,24 @@ public class Player
         
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine($"{Name} rzucił kostką i wyrzucił : {diceRoll}");
-
-        Console.ForegroundColor = ConsoleColor.Cyan;
+        
+        
         Position += diceRoll;
-        Console.WriteLine($"{Name} porusza się  na pole {Position}");
+
+        if (Position > 100)
+        {
+            int overStep = Position - 100;
+            Position = 100 - overStep;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine($"{Name} przekroczył Mete i cofa się o {overStep} pól");
+        }
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            
+            Console.WriteLine($"{Name} porusza się  na pole {Position}");
+        
+
+
     }
 
     public void AddScore(int points)
