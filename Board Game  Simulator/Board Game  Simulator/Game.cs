@@ -2,22 +2,22 @@ namespace Board_Game__Simulator;
 
 public class Game
 {
-    public void StartGame()
+    public static void StartGame()
     {
         
     }
 
-    public void PlayerTurn()
+    public static void PlayerTurn()
     {
         
     }
 
-    public void IsItInThePriceField()
+    public  static void IsItInThePriceField()
     {
         
     }
 
-    public void DispalyFinalResult()
+    public  static void DispalyFinalResult()
     {
         
     }

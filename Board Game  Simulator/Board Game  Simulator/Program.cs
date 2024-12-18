@@ -1,8 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Board_Game__Simulator;
 internal class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        
     }
 }

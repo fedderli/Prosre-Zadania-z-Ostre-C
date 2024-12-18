@@ -13,3 +13,18 @@
 /home/karolp/Pulpit/Proste zadania C#/Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.pdb
 /home/karolp/Pulpit/Proste zadania C#/Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.genruntimeconfig.cache
 /home/karolp/Pulpit/Proste zadania C#/Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/ref/Board Game  Simulator.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\bin\Debug\net8.0\Board Game  Simulator.exe
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\bin\Debug\net8.0\Board Game  Simulator.deps.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\bin\Debug\net8.0\Board Game  Simulator.runtimeconfig.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\bin\Debug\net8.0\Board Game  Simulator.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\bin\Debug\net8.0\Board Game  Simulator.pdb
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.AssemblyInfoInputs.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.AssemblyInfo.cs
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.sourcelink.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\refint\Board Game  Simulator.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.pdb
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\Board Game  Simulator.genruntimeconfig.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Board Game  Simulator\Board Game  Simulator\obj\Debug\net8.0\ref\Board Game  Simulator.dll
