@@ -90,6 +90,7 @@ public class Game
         }
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("Wszyscy gracze w grze:");
+        
         Console.ForegroundColor = ConsoleColor.Green;
         foreach (var player in players)
         {
@@ -107,18 +108,15 @@ public class Game
         {
             foreach (var player in players)
             {
-                Thread.Sleep(1000);
-                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Thread.Sleep(2000);
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
-                
-                Console.ForegroundColor = ConsoleColor.White;
-                Thread.Sleep(1000);
                 player.Move();
                 
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Console.WriteLine($"{player.Name} kończy ture");
                 Thread.Sleep(1000);
-
+                Console.WriteLine($"{player.Name} kończy ture");
+                
                 if (player.Score == 50 || player.Position ==100)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
