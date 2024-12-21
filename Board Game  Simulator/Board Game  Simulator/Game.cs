@@ -139,7 +139,7 @@ public class Game
     public  static void DisplayFinalResult(Player Winner, int turnsAmount)
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("{Winner.Name} wygrywa całą gre");
+        Console.WriteLine($"{Winner.Name} wygrywa całą gre");
         
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine($"liczba wszystkich tur: {turnsAmount}");
