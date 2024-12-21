@@ -1,13 +1,6 @@
 namespace Board_Game__Simulator.interfaces.Mag;
 
-public interface IMag
-{
-    int Sila { get; set; }
-    int Inteligencja { get; set; }
-    int Charyzma { get; set; }
-}
-
-public class Mag : IMag
+public class Mag
 {
     public int Sila { get; set; }
     public int Inteligencja { get; set; }

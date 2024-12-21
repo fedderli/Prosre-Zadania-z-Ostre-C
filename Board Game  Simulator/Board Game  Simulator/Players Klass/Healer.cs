@@ -1,13 +1,7 @@
 namespace Board_Game__Simulator.interfaces.Healer;
 
-public interface IHealer
-{
-    int Sila { get; set; }
-    int Inteligencja { get; set; }
-    int Charyzma { get; set; }
-}
 
-public class Healer : IHealer
+public class Healer : IKlasaPostaci
 {
     public int Sila { get; set; }
     public int Inteligencja { get; set; }
