@@ -100,17 +100,21 @@ public class Game
         Console.WriteLine("gra się rozpoczyna !!!!!!" );
         PlayerTurn();
     }
-
+    
     public static void PlayerTurn()
     {
+        var turnsAmount = 0;
         var endGame = false;
         while (!endGame)
         {
             foreach (var player in players)
             {
+                turnsAmount++;
+                
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Thread.Sleep(2000);
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
+                
                 player.Move();
                 
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -119,9 +123,9 @@ public class Game
                 
                 if (player.Score == 50 || player.Position ==100)
                 {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"{player.Name} wygrywa całą gre");
-                    return;
+                    DisplayFinalResult(player, turnsAmount);
+                    endGame = true;
+                    break;
                 }
             }
         }
@@ -132,8 +136,22 @@ public class Game
 
     }
 
-    public  static void DispalyFinalResult()
+    public  static void DisplayFinalResult(Player Winner, int turnsAmount)
     {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("{Winner.Name} wygrywa całą gre");
         
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine($"liczba wszystkich tur: {turnsAmount}");
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("tabela z wynikami graczy:");
+
+        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        foreach (var player in players)
+        {
+            Console.WriteLine(
+                $"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
+        }
     }
 }

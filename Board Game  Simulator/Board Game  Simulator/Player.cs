@@ -27,7 +27,7 @@ public class Player
 
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Thread.Sleep(500);
-            Console.WriteLine($"{Name} przekroczył Mete i cofa się o {overStep} pól");
+            Console.WriteLine($"{Name} przekroczył Mete i cofa się o {overStep} pola");
         }
 
             Console.ForegroundColor = ConsoleColor.Cyan;
