@@ -8,13 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Concert Ticker Booking System.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -28,7 +42,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/fedderli/Prosre-Zadania-z-Ostre-C.git&quot;,
-    &quot;accountId&quot;: &quot;137eebd8-ac3c-4c9b-a03b-8002faca48a0&quot;
+    &quot;accountId&quot;: &quot;313aa328-85da-44a0-8dcf-4210c5a6a165&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -96,6 +110,10 @@
       <workItem from="1733815836851" duration="20000" />
       <workItem from="1733815897192" duration="34000" />
       <workItem from="1733816044156" duration="43000" />
+      <workItem from="1736006326464" duration="1268000" />
+      <workItem from="1736019233759" duration="1192000" />
+      <workItem from="1736069367129" duration="623000" />
+      <workItem from="1736073365565" duration="3025000" />
     </task>
     <servers />
   </component>

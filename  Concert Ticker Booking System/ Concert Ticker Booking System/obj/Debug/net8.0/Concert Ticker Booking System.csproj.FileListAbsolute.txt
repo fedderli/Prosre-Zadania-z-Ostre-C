@@ -1,0 +1,15 @@
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\bin\Debug\net8.0\Concert Ticker Booking System.exe
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\bin\Debug\net8.0\Concert Ticker Booking System.deps.json
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\bin\Debug\net8.0\Concert Ticker Booking System.runtimeconfig.json
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\bin\Debug\net8.0\Concert Ticker Booking System.dll
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\bin\Debug\net8.0\Concert Ticker Booking System.pdb
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.GeneratedMSBuildEditorConfig.editorconfig
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.AssemblyInfoInputs.cache
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.AssemblyInfo.cs
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.csproj.CoreCompileInputs.cache
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.sourcelink.json
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.dll
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\refint\Concert Ticker Booking System.dll
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.pdb
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\Concert Ticker Booking System.genruntimeconfig.cache
+C:\gitHubFolder-C\Aplikacje C#\ Concert Ticker Booking System\ Concert Ticker Booking System\obj\Debug\net8.0\ref\Concert Ticker Booking System.dll
