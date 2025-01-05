@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="Add booking ticket functionality to ticket booking system">
+    <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="Add display concert and add concert methods to concert ticket booking system">
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -102,7 +102,7 @@
       <workItem from="1736006326464" duration="1268000" />
       <workItem from="1736019233759" duration="1192000" />
       <workItem from="1736069367129" duration="623000" />
-      <workItem from="1736073365565" duration="8117000" />
+      <workItem from="1736073365565" duration="9532000" />
     </task>
     <task id="LOCAL-00001" summary="Change fields to properties, add constructors, change data type of availableSeats, commit automatically changes">
       <option name="closed" value="true" />
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736100207327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add display concert and add concert methods to concert ticket booking system">
+      <option name="closed" value="true" />
+      <created>1736105775134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736105775134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +151,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Change fields to properties, add constructors, change data type of availableSeats, commit automatically changes" />
     <MESSAGE value="Add booking ticket functionality to ticket booking system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add booking ticket functionality to ticket booking system" />
+    <MESSAGE value="Add display concert and add concert methods to concert ticket booking system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add display concert and add concert methods to concert ticket booking system" />
   </component>
 </project>

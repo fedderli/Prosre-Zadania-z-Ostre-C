@@ -51,10 +51,26 @@ public class BookingSystem
         concerts.Add(new Concert(name, date, location, availableSeats));
         Console.WriteLine($"Dodano koncert: {name}, Data: {date}, Lokalizacja: {location}, Dostępne miejsca: {availableSeats}");
     }
-    public static void ReduceSeats()
+    public Ticket BookTicket(string concertName, decimal price, int seatNumber)
     {
+        Concert concert = null;
+        foreach (var c in concerts)
+        {
+            if (c.Name == concertName)
+            {
+                concert = c;
+                break;
+            }
+        }
         
+        if (concert == null)
+        {
+            Console.WriteLine("Nie znaleziono koncertu o podanej nazwie.");
+        }
+        
+        return Ticket.BookTicket(concert, price, seatNumber);
     }
+    
     public void DisplayConcerts(Func<Concert, bool> filter)
     {
         var filteredConcerts = new List<Concert>();
