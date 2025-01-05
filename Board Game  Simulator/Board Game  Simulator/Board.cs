@@ -30,7 +30,7 @@ public class Board
     {
         string PlayerClass = player.PlayerClass.GetType().Name;
         Random rnd = new Random();
-        int price = rnd.Next(1, 5);
+        int price = rnd.Next(1, 6);
         if (price == 1)
         {
             
