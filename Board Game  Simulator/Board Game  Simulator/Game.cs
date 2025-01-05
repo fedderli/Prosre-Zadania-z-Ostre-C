@@ -116,12 +116,13 @@ public class Game
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
                 
                 player.Move();
+                IsItInThePriceField();
                 
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Thread.Sleep(1000);
                 Console.WriteLine($"{player.Name} kończy ture");
                 
-                if (player.Score == 50 || player.Position ==100)
+                if (player.Score == 100 || player.Position ==100)
                 {
                     DisplayFinalResult(player, turnsAmount);
                     endGame = true;
@@ -133,7 +134,7 @@ public class Game
 
     public  static void IsItInThePriceField()
     {
-
+        
     }
 
     public  static void DisplayFinalResult(Player Winner, int turnsAmount)

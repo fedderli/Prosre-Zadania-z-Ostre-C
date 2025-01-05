@@ -15,4 +15,3 @@ public class Wojownik : IKlasaPostaci
     }
 }
 
-//IWojownik wojownik = new Wojownik();
