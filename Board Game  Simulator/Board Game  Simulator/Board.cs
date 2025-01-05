@@ -52,12 +52,14 @@ public class Board
 
         else if (price == 2)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             int extraRoll = rnd.Next(1, 7);
             Console.WriteLine($"Otrzymujesz dodatkowy rzut kostką i wyrzucasz {extraRoll}!");
             player.Position += extraRoll; 
         }
         else if (price == 3)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"trafiłes na swinksa który zadaje ci pytanie: \n" +
                               $"ile to 2+2*2");
             switch (PlayerClass)
@@ -78,6 +80,7 @@ public class Board
         }
         else if (price == 4)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Trafiłes na złodzieja ");
             switch (PlayerClass)
             {
@@ -97,6 +100,7 @@ public class Board
         }
         else if (price == 5)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("trafiłęs na pułapke ");
             switch (PlayerClass)
             {

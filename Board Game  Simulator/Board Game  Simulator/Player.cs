@@ -14,7 +14,7 @@ public class Player
         int diceRoll = random.Next(1, 7);
         
         Console.ForegroundColor = ConsoleColor.Blue;
-
+        Thread.Sleep(1000); 
         Console.WriteLine($"{Name} rzucił kostką i wyrzucił : {diceRoll}");
         
         
@@ -26,11 +26,12 @@ public class Player
             Position = 100 - overStep;
 
             Console.ForegroundColor = ConsoleColor.DarkRed;
+            Thread.Sleep(1000); 
             Console.WriteLine($"{Name} przekroczył Mete i cofa się o {overStep} pola");
         }
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-
+            Thread.Sleep(1000); 
             Console.WriteLine($"{Name} porusza się  na pole {Position}");
         
 
@@ -39,6 +40,7 @@ public class Player
 
     public void AddScore(int points)
     {
+        Thread.Sleep(1000); 
         Score += points;
         Console.WriteLine($"{Name} zdobywa {points} punktów! Obecny wynik : {Score} ");
     }

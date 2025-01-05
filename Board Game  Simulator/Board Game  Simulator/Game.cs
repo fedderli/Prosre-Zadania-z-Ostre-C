@@ -16,11 +16,11 @@ public class Game
         Console.ForegroundColor = ConsoleColor.DarkCyan;
         Console.WriteLine("Przygotowanie do gry!!!");
         
+        Thread.Sleep(1000); 
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("Podaj ilość Graczy(2-4) :");
         
         int numberOfPlayers = int.Parse(Console.ReadLine());
-        
         
         
         if (numberOfPlayers < 2 || numberOfPlayers > 4)
@@ -38,14 +38,15 @@ public class Game
             Console.WriteLine("Boooooooooooooooooooooooooooooooooooom!!!!!!!!!!!!!!!!!!!!!");
             return;
         }
-
         for (int i = 1; i <= numberOfPlayers; i++)
         {
+            Thread.Sleep(1000);
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("Podaj swoje imie");
             
             Console.ForegroundColor = ConsoleColor.Magenta;
             string playerName = Console.ReadLine();
+            
             
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Wybierz klasę swojej postaci: (Healer (1)/ Mag(2)/ Wojownik(3))");
@@ -88,15 +89,18 @@ public class Game
             
             players.Add(player);
         }
+        Thread.Sleep(1000); 
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.WriteLine("Wszyscy gracze w grze:");
         
         Console.ForegroundColor = ConsoleColor.Green;
         foreach (var player in players)
         {
+            Thread.Sleep(1000); 
             Console.WriteLine($"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
         }
         Console.ForegroundColor = ConsoleColor.Yellow;
+        Thread.Sleep(2000); 
         Console.WriteLine("gra się rozpoczyna !!!!!!" );
         PlayerTurn();
     }
@@ -112,15 +116,17 @@ public class Game
                 turnsAmount++;
                 
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                
+                Thread.Sleep(1000); 
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
                 
                 player.Move();
                 IsItInThePriceField(player);
                 
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                
+                Thread.Sleep(1000); 
                 Console.WriteLine($"{player.Name} kończy ture");
+                Console.WriteLine("Naciśnij Enter, aby kontynuować...");
+                Console.ReadLine();
                 
                 if (player.Score == 50 || player.Position == 100)
                 {
@@ -142,18 +148,23 @@ public class Game
 
     public  static void DisplayFinalResult(Player Winner, int turnsAmount)
     {
+        Thread.Sleep(1000); 
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine($"{Winner.Name} wygrywa całą gre");
         
+        Thread.Sleep(1000); 
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine($"liczba wszystkich tur: {turnsAmount}");
 
+        Thread.Sleep(1000); 
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("tabela z wynikami graczy:");
-
+        
+        
         Console.ForegroundColor = ConsoleColor.DarkGreen;
         foreach (var player in players)
         {
+            Thread.Sleep(1000); 
             Console.WriteLine(
                 $"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
         }
@@ -161,6 +172,7 @@ public class Game
         Console.WriteLine("Specjalne Pola");
         foreach (var specialField in Board.SpecialFields)
         {
+            Thread.Sleep(500); 
             Console.WriteLine($"{specialField}");
         }
     }
