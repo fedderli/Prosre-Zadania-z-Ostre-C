@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class Concert
 {
@@ -43,17 +44,39 @@ public class Ticket
 
 public class BookingSystem
 {
-    public static void AddConcert()
+    private List<Concert> concerts = new List<Concert>();
+    
+    public void AddConcert(string name, DateTime date, string location, int availableSeats)
     {
-        
+        concerts.Add(new Concert(name, date, location, availableSeats));
+        Console.WriteLine($"Dodano koncert: {name}, Data: {date}, Lokalizacja: {location}, Dostępne miejsca: {availableSeats}");
     }
     public static void ReduceSeats()
     {
         
     }
-    public static void DisplayConcert()
+    public void DisplayConcerts(Func<Concert, bool> filter)
     {
-        
+        var filteredConcerts = new List<Concert>();
+
+        foreach (var concert in concerts)
+        {
+            if (filter(concert))  
+            {
+                filteredConcerts.Add(concert);
+            }
+        }
+
+        if (filteredConcerts.Count == 0)
+        {
+            Console.WriteLine("Brak koncertów spełniających kryteria.");
+            return;
+        }
+
+        foreach (var concert in filteredConcerts)
+        {
+            Console.WriteLine($"Nazwa: {concert.Name}, Data: {concert.Date}, Lokalizacja: {concert.Location}, Dostępne miejsca: {concert.AvailableSeats}");
+        }
     }
 }
 
