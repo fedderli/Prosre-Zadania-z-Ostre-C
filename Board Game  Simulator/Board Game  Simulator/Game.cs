@@ -128,7 +128,7 @@ public class Game
                 Console.WriteLine("Naciśnij Enter, aby kontynuować...");
                 Console.ReadLine();
                 
-                if (player.Score == 50 || player.Position == 100)
+                if (player.Score >= 50 || player.Position == 100)
                 {
                     DisplayFinalResult(player, turnsAmount);
                     endGame = true;
