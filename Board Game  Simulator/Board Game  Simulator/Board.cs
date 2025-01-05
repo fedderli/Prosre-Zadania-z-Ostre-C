@@ -4,10 +4,11 @@ using Board_Game__Simulator_player;
 public class Board
 {
     public int boardSize { get; set; } = 100;
+    public static List<int> SpecialFields = new List<int>();
 
     public static void randomFields()
     {
-        List<int> SpecialFields = new List<int>();
+        
         Random rnd = new Random();
         
         for (int i = 1; i < 40; i++)
@@ -25,7 +26,7 @@ public class Board
         
     }
 
-    public void RandomPrice(Player player)
+    public static void RandomPrice(Player player)
     {
         string PlayerClass = player.PlayerClass.GetType().Name;
         Random rnd = new Random();

@@ -112,17 +112,17 @@ public class Game
                 turnsAmount++;
                 
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Thread.Sleep(2000);
+                
                 Console.WriteLine($"Tura Gracza {player.Name}, Klasa: {player.PlayerClass.GetType().Name}");
                 
                 player.Move();
-                IsItInThePriceField();
+                IsItInThePriceField(player);
                 
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                Thread.Sleep(1000);
+                
                 Console.WriteLine($"{player.Name} kończy ture");
                 
-                if (player.Score == 100 || player.Position ==100)
+                if (player.Score == 50 || player.Position == 100)
                 {
                     DisplayFinalResult(player, turnsAmount);
                     endGame = true;
@@ -132,9 +132,12 @@ public class Game
         }
     }
 
-    public  static void IsItInThePriceField()
+    public  static void IsItInThePriceField(Player player)
     {
-        
+        if (Board.SpecialFields.Contains(player.Position))
+        {
+            Board.RandomPrice(player);
+        }
     }
 
     public  static void DisplayFinalResult(Player Winner, int turnsAmount)
@@ -153,6 +156,12 @@ public class Game
         {
             Console.WriteLine(
                 $"Gracz: {player.Name}, Klasa: {player.PlayerClass.GetType().Name}, Pozycja: {player.Position}, Wynik: {player.Score}");
+        }
+    
+        Console.WriteLine("Specjalne Pola");
+        foreach (var specialField in Board.SpecialFields)
+        {
+            Console.WriteLine($"{specialField}");
         }
     }
 }
