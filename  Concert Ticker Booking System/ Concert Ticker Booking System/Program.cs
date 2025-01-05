@@ -21,7 +21,7 @@ public class Ticket
     public Concert Concert { get; private set; }
     public decimal Price { get; private set; }
     public int SeatNumber { get; private set; }
-
+    
     public Ticket(Concert concert, decimal price, int seatNumber)
     {
         Concert = concert;
@@ -29,9 +29,15 @@ public class Ticket
         SeatNumber = seatNumber;
     }
 
-    public static void BookTicket()
+    public static Ticket BookTicket(Concert concert, decimal price, int seatNumber)
     {
-        
+        if (concert.AvailableSeats <= 0)
+        {
+            Console.WriteLine("Brak dostępnych miejsc na ten koncert.");
+        }
+
+        concert.AvailableSeats--;
+        return new Ticket(concert, price, seatNumber);
     }
 }
 
