@@ -3,6 +3,7 @@ using System.Collections.Generic;
 namespace Concert_Ticker_Booking_System;
 using Concert_Ticker_Booking_System;
 
+
 public class Program
 {
     public static void Main(string[] args)
@@ -22,7 +23,7 @@ public class Program
                     Console.Write("Podaj nazwę koncertu: ");
                     string name = Console.ReadLine();
                     Console.Write("Podaj datę koncertu (yyyy-MM-dd): ");
-                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    string date = Console.ReadLine();
                     Console.Write("Podaj lokalizację koncertu: ");
                     string location = Console.ReadLine();
                     Console.Write("Podaj liczbę dostępnych miejsc: ");
@@ -36,7 +37,7 @@ public class Program
                     string filterLocation = Console.ReadLine();
 
                     Console.WriteLine($"\nKoncerty w lokalizacji: {filterLocation}");
-                    bookingSystem.DisplayConcerts(c => c.Location.Equals(filterLocation, StringComparison.OrdinalIgnoreCase));
+                    bookingSystem.DisplayConcerts(filterLocation);
                     break;
 
                 case "3":
@@ -47,14 +48,10 @@ public class Program
                     Console.Write("Podaj numer miejsca: ");
                     int seatNumber = int.Parse(Console.ReadLine());
 
-                    try
+                    var ticket = bookingSystem.BookTicket(concertName, price, seatNumber);
+                    if (ticket != null)
                     {
-                        var ticket = bookingSystem.BookTicket(concertName, price, seatNumber);
                         Console.WriteLine($"\nZarezerwowano bilet na koncert: {ticket.Concert.Name}, Cena: {ticket.Price}, Miejsce: {ticket.SeatNumber}");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"\nBłąd: {ex.Message}");
                     }
                     break;
 

@@ -1,5 +1,6 @@
 namespace Concert_Ticker_Booking_System;
 
+
 public class Ticket
 {
     public Concert Concert { get; private set; }
@@ -18,6 +19,7 @@ public class Ticket
         if (concert.AvailableSeats <= 0)
         {
             Console.WriteLine("Brak dostępnych miejsc na ten koncert.");
+            return null;
         }
 
         concert.AvailableSeats--;
