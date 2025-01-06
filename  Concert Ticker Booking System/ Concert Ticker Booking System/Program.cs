@@ -9,6 +9,7 @@ public class Program
     public static void Main(string[] args)
     {
         BookingSystem bookingSystem = new BookingSystem();
+        bookingSystem.AddConcert("Test", "12.12.2000", "Warszawa", 100);
         bool exit = false;
         
         while (!exit)
@@ -22,7 +23,7 @@ public class Program
                 case "1":
                     Console.Write("Podaj nazwę koncertu: ");
                     string name = Console.ReadLine();
-                    Console.Write("Podaj datę koncertu (yyyy-MM-dd): ");
+                    Console.Write("Podaj datę koncertu: ");
                     string date = Console.ReadLine();
                     Console.Write("Podaj lokalizację koncertu: ");
                     string location = Console.ReadLine();
