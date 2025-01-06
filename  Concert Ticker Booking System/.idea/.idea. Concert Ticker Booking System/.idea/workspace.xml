@@ -7,20 +7,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="Implement booking ticket function for concert ticket booking system">
+    <list default="true" id="d77ae3b7-c36a-42ab-8c71-4461ab23c71f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/BookingSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Concert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Ticket.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/bin/Debug/net8.0/Concert Ticker Booking System.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/Concert Ticker Booking System.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/ref/Concert Ticker Booking System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/ref/Concert Ticker Booking System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/refint/Concert Ticker Booking System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ Concert Ticker Booking System/obj/Debug/net8.0/refint/Concert Ticker Booking System.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Concert Ticker Booking System/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/bin/Debug/net8.0/Board Game  Simulator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Board Game  Simulator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Board Game  Simulator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Board Game  Simulator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Board Game  Simulator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/Board Game  Simulator.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/ref/Board Game  Simulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/ref/Board Game  Simulator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/refint/Board Game  Simulator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/Debug/net8.0/refint/Board Game  Simulator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Board Game  Simulator/Board Game  Simulator/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +69,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2phMOxEav8Q3CaAA2mHkd5TiiEE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -113,7 +132,9 @@
       <workItem from="1736006326464" duration="1268000" />
       <workItem from="1736019233759" duration="1192000" />
       <workItem from="1736069367129" duration="623000" />
-      <workItem from="1736073365565" duration="11526000" />
+      <workItem from="1736073365565" duration="11777000" />
+      <workItem from="1736187270270" duration="420000" />
+      <workItem from="1736187906483" duration="1293000" />
     </task>
     <task id="LOCAL-00001" summary="Change fields to properties, add constructors, change data type of availableSeats, commit automatically changes">
       <option name="closed" value="true" />
@@ -147,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736106980949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add full main functionality in ticket booking system">
+      <option name="closed" value="true" />
+      <created>1736109878221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736109878221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +201,7 @@
     <MESSAGE value="Add booking ticket functionality to ticket booking system" />
     <MESSAGE value="Add display concert and add concert methods to concert ticket booking system" />
     <MESSAGE value="Implement booking ticket function for concert ticket booking system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement booking ticket function for concert ticket booking system" />
+    <MESSAGE value="Add full main functionality in ticket booking system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add full main functionality in ticket booking system" />
   </component>
 </project>
