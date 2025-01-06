@@ -7,12 +7,14 @@ public class Concert
     public string Date { get; set; }
     public string Location { get; set; }
     public int AvailableSeats { get; set; }
+    public int TicketPrice { get; set; }
 
-    public Concert(string name, string date, string location, int availableSeats)
+    public Concert(string name, string date, string location, int availableSeats, int ticketPrice)
     {
         Name = name;
         Date = date;
         Location = location;
         AvailableSeats = availableSeats;
+        TicketPrice = ticketPrice;
     }
 }
