@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj": {}
+    "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj": {}
   },
   "projects": {
-    "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj": {
+    "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
+        "projectUniqueName": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
         "projectName": "Sports Team Management System",
-        "projectPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/Sports Team Management System.csproj",
-        "packagesPath": "/home/filip/.nuget/packages/",
-        "outputPath": "/home/filip/Dokumenty/Zadania c#/Prosre-Zadania-z-Ostre-C/Sports Team Management System/Sports Team Management System/obj/",
+        "projectPath": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "/home/filip/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -33,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
