@@ -155,6 +155,7 @@ public class Team
     {
         Console.WriteLine("Podaj imie do dodania punktów:");
         String nameInput = Console.ReadLine();
+        Console.WriteLine("Podaj ilosc punktów do dodania:");
         String scoreInput = Console.ReadLine();
         int score = Convert.ToInt32(scoreInput);
         foreach (Player player in Players)
