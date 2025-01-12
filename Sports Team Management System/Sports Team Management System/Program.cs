@@ -22,6 +22,7 @@ internal class Program
                               "4. oblicz srednia punktow druzyny \n" +
                               "5. wyszukaj zawodnika \n" +
                               "6. zaktualizuj wynik zawodnika \n " +
+                              "7. zakończ program \n" +
                               "");
             string input = Console.ReadLine();
             switch (input)
@@ -80,6 +81,10 @@ internal class Program
                 case "4":
                     Team.DisplayAverage();
                     break;
+                case "5":
+                    Team.FindPlayer();
+                    break;
+                    
                 
             }
         }
