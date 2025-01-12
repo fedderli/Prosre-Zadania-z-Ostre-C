@@ -3,10 +3,11 @@ using Sports_Team_Management_Player;
 
 public class Team
 {
-    public List<Player> Players = new List<Player>();
-    public static void AddPlayer()
+    public static List<Player> Players = new List<Player>();
+    public static void AddPlayer(string name, string position, int score)
     {
-        
+        Players.Add(new Player(name, position, score));
+        Console.WriteLine($"Gracz {name} został dodany na pozycji {position} i zdobył w sumie {score} punkty");
     }
     public static void RemovePlayer()
     {

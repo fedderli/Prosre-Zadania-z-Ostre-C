@@ -13,3 +13,18 @@ C:\gitHubFolder-C\Aplikacje C#\Sports Team Management System\Sports Team Managem
 C:\gitHubFolder-C\Aplikacje C#\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.pdb
 C:\gitHubFolder-C\Aplikacje C#\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.genruntimeconfig.cache
 C:\gitHubFolder-C\Aplikacje C#\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\ref\Sports Team Management System.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.AssemblyInfoInputs.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.AssemblyInfo.cs
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.csproj.CoreCompileInputs.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.sourcelink.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\refint\Sports Team Management System.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.pdb
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\bin\Debug\net8.0\Sports Team Management System.exe
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\bin\Debug\net8.0\Sports Team Management System.deps.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\bin\Debug\net8.0\Sports Team Management System.runtimeconfig.json
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\bin\Debug\net8.0\Sports Team Management System.dll
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\bin\Debug\net8.0\Sports Team Management System.pdb
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\Sports Team Management System.genruntimeconfig.cache
+C:\Users\Federli\RiderProjects\Prosre-Zadania-z-Ostre-C\Sports Team Management System\Sports Team Management System\obj\Debug\net8.0\ref\Sports Team Management System.dll
