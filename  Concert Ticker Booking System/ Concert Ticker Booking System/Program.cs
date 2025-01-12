@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 namespace Concert_Ticker_Booking_System;
-using Concert_Ticker_Booking_System;
+
 
 public class Program
 {
     public static void Main(string[] args)
     {
         BookingSystem bookingSystem = new BookingSystem();
+        bookingSystem.AddConcert("Test", "12.12.2000", "Warszawa", 500, 300);
         bool exit = false;
-        
+
         while (!exit)
         {
             Console.WriteLine("System Rezerwacji Biletów na Koncerty");
@@ -21,14 +22,16 @@ public class Program
                 case "1":
                     Console.Write("Podaj nazwę koncertu: ");
                     string name = Console.ReadLine();
-                    Console.Write("Podaj datę koncertu (yyyy-MM-dd): ");
-                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    Console.Write("Podaj datę koncertu: ");
+                    string date = Console.ReadLine();
                     Console.Write("Podaj lokalizację koncertu: ");
                     string location = Console.ReadLine();
                     Console.Write("Podaj liczbę dostępnych miejsc: ");
                     int availableSeats = int.Parse(Console.ReadLine());
+                    Console.Write("Podaj cenę biletu: ");
+                    int ticketPrice = int.Parse(Console.ReadLine());
 
-                    bookingSystem.AddConcert(name, date, location, availableSeats);
+                    bookingSystem.AddConcert(name, date, location, availableSeats, ticketPrice);
                     break;
 
                 case "2":
@@ -42,19 +45,12 @@ public class Program
                 case "3":
                     Console.Write("Podaj nazwę koncertu: ");
                     string concertName = Console.ReadLine();
-                    Console.Write("Podaj cenę biletu: ");
-                    decimal price = decimal.Parse(Console.ReadLine());
                     Console.Write("Podaj numer miejsca: ");
                     int seatNumber = int.Parse(Console.ReadLine());
-
-                    try
+                    var ticket = bookingSystem.BookTicket(concertName, seatNumber);
+                    if (ticket != null)
                     {
-                        var ticket = bookingSystem.BookTicket(concertName, price, seatNumber);
-                        Console.WriteLine($"\nZarezerwowano bilet na koncert: {ticket.Concert.Name}, Cena: {ticket.Price}, Miejsce: {ticket.SeatNumber}");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"\nBłąd: {ex.Message}");
+                        Console.WriteLine($"\nZarezerwowano bilet na koncert: {ticket.Concert.Name}, Miejsce: {ticket.SeatNumber}, Cena: {ticket.Price} PLN");
                     }
                     break;
 

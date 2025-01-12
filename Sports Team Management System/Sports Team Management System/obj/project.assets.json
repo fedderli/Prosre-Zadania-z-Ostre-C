@@ -8,32 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Federli\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Federli\\RiderProjects\\Prosre-Zadania-z-Ostre-C\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
+      "projectUniqueName": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
       "projectName": "Sports Team Management System",
-      "projectPath": "C:\\Users\\Federli\\RiderProjects\\Prosre-Zadania-z-Ostre-C\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
-      "packagesPath": "C:\\Users\\Federli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Federli\\RiderProjects\\Prosre-Zadania-z-Ostre-C\\Sports Team Management System\\Sports Team Management System\\obj\\",
+      "projectPath": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\Sports Team Management System.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\gitHubFolder-C\\Aplikacje C#\\Sports Team Management System\\Sports Team Management System\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Federli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
