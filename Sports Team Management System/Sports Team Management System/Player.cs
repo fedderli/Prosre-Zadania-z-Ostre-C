@@ -1,4 +1,4 @@
-namespace Sports_Team_Management_System;
+namespace Sports_Team_Management_Player;
 
 
 public class Player

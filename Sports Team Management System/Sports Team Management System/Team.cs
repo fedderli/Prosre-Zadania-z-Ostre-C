@@ -1,8 +1,9 @@
-namespace Sports_Team_Management_System;
-
+namespace Sports_Team_Management_Team;
+using Sports_Team_Management_Player;
 
 public class Team
 {
+    public List<Player> Players = new List<Player>();
     public static void AddPlayer()
     {
         
