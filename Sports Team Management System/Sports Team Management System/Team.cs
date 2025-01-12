@@ -149,8 +149,23 @@ public class Team
             default:
                 Console.WriteLine("cos poszlo nie tak");
                 break;
-                
-                
         }
+    }
+    public static void AddScore()
+    {
+        Console.WriteLine("Podaj imie do dodania punktów:");
+        String nameInput = Console.ReadLine();
+        String scoreInput = Console.ReadLine();
+        int score = Convert.ToInt32(scoreInput);
+        foreach (Player player in Players)
+        {
+            if (player.Name == nameInput)
+            {
+                Console.WriteLine($"Gracz {player.Name} na pozycji {player.Position} zdobył {player.Score} punkty");
+                player.Score += score;
+                Console.WriteLine($"Gracz {player.Name} na pozycji {player.Position} dodano mu {score} i teraz ma {player.Score} punkty");
+            }
+        }
+        
     }
 }

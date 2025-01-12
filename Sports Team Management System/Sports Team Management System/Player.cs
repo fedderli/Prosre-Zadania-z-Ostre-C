@@ -14,10 +14,5 @@ public class Player
         Score = score;
     }
     
-    public void AddScore()
-    {
-
-    }
     
-
 }

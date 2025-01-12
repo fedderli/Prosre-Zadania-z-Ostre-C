@@ -84,6 +84,15 @@ internal class Program
                 case "5":
                     Team.FindPlayer();
                     break;
+                case "6":
+                    Team.AddScore();
+                    break;
+                case "7":
+                    end = true;
+                    break;
+                default:
+                    Console.WriteLine("cos poszlo nie tak");
+                    break;
                     
                 
             }
