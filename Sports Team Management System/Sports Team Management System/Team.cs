@@ -13,17 +13,20 @@ public class Team
     {
         foreach (Player player in Players)
         {
-            if (player.Name == name)
+            if (player.Name.ToLower() == name.ToLower())
             {
                 Players.Remove(player);
-                Console.WriteLine($"gracz {name} na posycji {player.Position}");
+                Console.WriteLine($"gracz {name} na posycji {player.Position} został usuniety");
             }
         }
     }
     
     public static void DisplayStatistics()
     {
-        
+        foreach (var player in Players)
+        {
+            Console.WriteLine($"Gracz {player.Name} na pozycji {player.Position} zdobył {player.Score} punkty");
+        }
     }
     
     public static void DisplayAverage()

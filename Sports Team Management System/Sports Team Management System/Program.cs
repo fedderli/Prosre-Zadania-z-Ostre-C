@@ -74,6 +74,9 @@ internal class Program
                     string nameToRemove = Console.ReadLine();
                     Team.RemovePlayer(nameToRemove);
                     break;
+                case "3":
+                    Team.DisplayStatistics();
+                    break;
                 
             }
         }
