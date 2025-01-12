@@ -13,7 +13,7 @@ public class Team
     {
         foreach (Player player in Players)
         {
-            if (player.Name.ToLower() == name.ToLower())
+            if (player.Name == name)
             {
                 Players.Remove(player);
                 Console.WriteLine($"gracz {name} na posycji {player.Position} został usuniety");
@@ -31,6 +31,14 @@ public class Team
     
     public static void DisplayAverage()
     {
+        int average = 0;
+
+        foreach (var player in Players)
+        {
+            average += player.Score;
+        }
+        average /= Players.Count;
         
+        Console.WriteLine($"średnia ilos punktów to {average} dla wszystkich zawodnikow druzyny");
     }
 }

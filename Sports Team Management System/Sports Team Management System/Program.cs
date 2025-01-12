@@ -77,6 +77,9 @@ internal class Program
                 case "3":
                     Team.DisplayStatistics();
                     break;
+                case "4":
+                    Team.DisplayAverage();
+                    break;
                 
             }
         }
