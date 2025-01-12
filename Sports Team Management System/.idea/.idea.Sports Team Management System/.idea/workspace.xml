@@ -7,27 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31452a4d-7bf3-495b-9b88-2545478f14e8" name="Changes" comment="Added main menu for team management actions">
+    <list default="true" id="31452a4d-7bf3-495b-9b88-2545478f14e8" name="Changes" comment="added functionality to add players to team">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sports Team Management System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sports Team Management System/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sports Team Management System/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/Team.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/bin/Debug/net8.0/Sports Team Management System.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/Sports Team Management System.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/ref/Sports Team Management System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/ref/Sports Team Management System.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/refint/Sports Team Management System.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Sports Team Management System/obj/Debug/net8.0/refint/Sports Team Management System.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -65,7 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.Sports Team Management System.executor": "Debug",
+    ".NET Project.Sports Team Management System.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -106,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733214071056</updated>
       <workItem from="1733214072249" duration="17000" />
-      <workItem from="1736678892628" duration="4567000" />
+      <workItem from="1736678892628" duration="5398000" />
     </task>
     <task id="LOCAL-00001" summary="Syncing local state with the repository">
       <option name="closed" value="true" />
@@ -124,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736680772670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added functionality to add players to team">
+      <option name="closed" value="true" />
+      <created>1736683685752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736683685752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +145,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Syncing local state with the repository" />
     <MESSAGE value="Added main menu for team management actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added main menu for team management actions" />
+    <MESSAGE value="added functionality to add players to team" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality to add players to team" />
   </component>
 </project>

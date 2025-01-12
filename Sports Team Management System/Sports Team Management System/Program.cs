@@ -6,6 +6,9 @@ internal class Program
 {
     public static void Main(string[] args)
     {
+        Team.AddPlayer("Mariusz", "atakujacy", 10);
+        Team.AddPlayer("Kamil", "środkowy", 8);
+        
         Team team = new Team();
 
         var end = false;
@@ -66,6 +69,12 @@ internal class Program
                     
                     Team.AddPlayer(name, position, score);
                     break;
+                case "2":
+                    Console.WriteLine("Podaj imie zawodnika do usuniecia: ");
+                    string nameToRemove = Console.ReadLine();
+                    Team.RemovePlayer(nameToRemove);
+                    break;
+                
             }
         }
     }
